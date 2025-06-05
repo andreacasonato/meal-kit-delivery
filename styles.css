@@ -4,3 +4,10 @@
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+/* HEADER MENU */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
