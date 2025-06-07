@@ -5,11 +5,33 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+a {
+    text-decoration: none
+}
+
+/* BUTTONS */
+
+
+
 /* HEADER MENU */
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navigation__items {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 1.5rem;
 }
 
 
