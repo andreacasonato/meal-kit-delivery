@@ -9,15 +9,46 @@ a {
     text-decoration: none
 }
 
+p {
+    color: #616161;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #151515;
+}
+
 /* BUTTONS */
+.button__green {
+    padding: 12px 28px;
+    background-color: #C3F393;
+    color: #151515;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
 
+.button__green:hover {
+    background-color: #CEFF9E;
+}
 
+.button__white {
+    padding: 12px 28px;
+    background-color: #FEFEFE;
+    color: #151515;
+    border-radius: 24px;
+    border: 1px solid #878787;
+    cursor: pointer;
+}
+
+.button__white:hover {
+    background-color: #F8F8F8;
+}
 
 /* HEADER MENU */
-
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #F5FDED;
 }
 
 .navigation {
@@ -34,6 +65,11 @@ a {
     gap: 1.5rem;
 }
 
+/* MAIN */
+.main__box {
+    border: 1px solid #F4F4F4;
+    padding: 2rem;
+}
 
 
 /* HOW IT WORKS SECTION */
