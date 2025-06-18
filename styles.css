@@ -9,6 +9,7 @@
 a {
     text-decoration: none;
     color: #151515;
+    font-size: 1rem;
 }
 
 li {
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #151515;
 }
 
-/* BUTTONS */
+/* BUTTONS & TAGS */
 .button__green {
     padding: 12px 28px;
     background-color: #C3F393;
@@ -55,6 +56,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #F8F8F8;
 }
 
+.tag {
+    padding: 0.438rem 1.438rem;
+    background-color: #ECFFF0;
+    color: #3D6B00;
+    font-size: 0.875rem;
+    border-radius: 16px;
+}
+
 /* HEADER MENU */
 .header {
     display: flex;
@@ -78,11 +87,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* MAIN */
-
 .main__section {
     border-bottom: solid #C3F393 24px;
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding: 6.25rem 5rem;
 }
 
 .main__box {
@@ -94,8 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 /* HOW IT WORKS SECTION */
 .how-it-works__section {
     background-color: #FAFAFA;
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding: 6.25rem 5rem;
 }
 
 
@@ -119,3 +125,141 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* USPS SECTION */
+.usp__section {
+    background-color: #FEFEFE;
+    padding: 6.25rem 5rem;
+}
+
+.usp__section-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MENU ITEMS SECTION */
+.menu-items__section {
+    background-color: #F5FDED;
+    padding: 6.25rem 5rem;
+}
+
+.menu-items__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.menu-items__card {
+    width: 28%;
+}
+
+.menu-items__card-content {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* REVIEW SECTION */
+.review__section {
+    background-color: #FEFEFE;
+    padding: 6.25rem 5rem;
+}
+
+.review__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.review__card {
+    padding: 3rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 8px 8px 24px rgba(110, 110, 110, 0.25);
+    width: 405px;
+    height: 250px;
+}
+
+.review__card h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* STATISTICS SECTION */
+.statistics__section {
+    background-color: #FAFAFA;
+    padding: 6.25rem 5rem;
+}
+
+.statistics__column {
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.statistics__section-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.statistics__section-row h3 {
+    font-size: 2.488rem;
+    width: 480px;
+}
+
+.statistics__row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.statistics__row p {
+    font-size: 2.074rem;
+    font-weight: 700;
+}
+
+.statistics__group {
+    margin-bottom: 2rem;
+}
+
+
+/* PRICING SECTION */
+.pricing__section {
+    background-color: #FEFEFE;
+    padding: 6.25rem 5rem;
+}
+
+.pricing__section-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__basic, .pricing__monthly, .pricing__weekly {
+    box-shadow: 8px 8px 24px rgba(110, 110, 110, 0.25);
+    padding: 3rem;
+    border-radius: 8px;
+    width: 405px;
+}
+
+.pricing__monthly {
+    background-color: #F5FDED;
+}
+
+.price {
+    font-size: 2.074rem;
+    font-weight: 700;
+    color: #259F00;
+}
+
+.pricing-line {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+
+/* FAQ SECTION */
+
+.faq__section h2 {
+    text-align: center;
+}
