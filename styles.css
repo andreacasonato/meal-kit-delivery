@@ -260,6 +260,46 @@ h1, h2, h3, h4, h5, h6 {
 
 /* FAQ SECTION */
 
-.faq__section h2 {
+.faq__section {
+    padding: 6.25rem 5rem;
+}
+
+.faq__section-description {
     text-align: center;
 }
+
+.question__box {
+    display: flex;
+    justify-content: space-between;
+    width: 39.25rem;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.question__box:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.question__box img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.question__box-group1 {
+    display: flex;
+    align-items: center;
+}
+
+
+/* CTA SECTION */
+
+.cta__section {
+    background-image: url(Images/CTA-image.webp);
+    padding: 6.25rem 5rem;
+}
+
+/* FOOTER */
