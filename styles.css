@@ -302,4 +302,52 @@ h1, h2, h3, h4, h5, h6 {
     padding: 6.25rem 5rem;
 }
 
+.cta__section p, 
+.cta__section h2 {
+    color: #F5F5F5;
+}
+
 /* FOOTER */
+
+footer {
+    padding-top: 3.75rem;
+    padding-bottom: 1.25rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #F5FDED;
+}
+
+.footer__top-section {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #616161 solid;
+    border-width: 0.5px;
+    padding-bottom: 5rem;
+}
+
+.footer__logo-links {
+    flex-direction: row;
+}
+
+.footer__social-links {
+    display: flex;
+
+}
+
+.footer__top-section-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+
+.footer__bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+}
+
+.footer__bottom-section-links {
+    display: flex;
+    justify-content: space-between;
+}
