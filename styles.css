@@ -23,10 +23,23 @@ a:hover {
 
 p {
     color: #616161;
+    font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #151515;
+}
+
+h1 {
+    font-size: 2.9863rem;
+}
+
+h2 {
+    font-size: 2.4881rem;
+}
+
+h3 {
+    font-size: 1.44rem;
 }
 
 /* BUTTONS & TAGS */
@@ -90,11 +103,39 @@ h1, h2, h3, h4, h5, h6 {
 .main__section {
     border-bottom: solid #C3F393 24px;
     padding: 6.25rem 5rem;
+    background-image: url(Images/Hero\ Image.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main__box {
     border: 1px solid #F4F4F4;
-    padding: 2rem;
+    padding: 3rem;
+    width: 50%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 8px 8px 24px rgba(110, 110, 110, 0.25);
+}
+
+.main__box h1 {
+    margin-bottom: 1rem;
+}
+
+.main__box p {
+    margin-bottom: 1.5rem;
+}
+
+.main__box button {
+    margin-bottom: 1.5rem;
+}
+
+.main__box ul {
+    margin-top: 0.5rem;
+}
+
+.main__box ul li {
+    margin-bottom: 0.5rem;
 }
 
 
@@ -305,6 +346,11 @@ h1, h2, h3, h4, h5, h6 {
 .cta__section p, 
 .cta__section h2 {
     color: #F5F5F5;
+}
+
+.cta__section p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* FOOTER */
