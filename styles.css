@@ -161,7 +161,6 @@ h3 {
     padding: 6.25rem 5rem;
 }
 
-
 .how-it-works__usps {
     display: flex;
     justify-content: center;
@@ -178,7 +177,7 @@ h3 {
     margin-bottom: 4rem;
 }
 
-.cta-group {
+.cta-group-one {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -208,9 +207,32 @@ h3 {
     padding: 6.25rem 5rem;
 }
 
+.usp__section h2 {
+    max-width: 400px;
+}
+
+.usp__section p {
+    max-width: 285px;
+}
+
 .usp__section-row {
     display: flex;
     justify-content: space-between;
+}
+
+.usp__section-icon-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 5.75rem;
+}   
+
+.usp__section-icon-text div {
+    max-width: 270px;
+}
+
+.cta-group-two {
+    display: flex;
+    gap: 1rem;
 }
 
 
@@ -225,7 +247,6 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 .menu-items__card {
     width: 28%;
