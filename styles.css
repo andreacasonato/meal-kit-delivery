@@ -120,12 +120,12 @@ h3 {
 }
 
 .main__box {
-    border: 1px solid #F4F4F4;
+    border: 1px solid #e2e2e2;
+    box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
     padding: 3rem;
     width: 50%;
     background-color: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 8px 8px 24px rgba(110, 110, 110, 0.25);
 }
 
 main h1 {
@@ -287,7 +287,8 @@ main h1 {
     margin-bottom: 2rem;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e2e2;
+    box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
 }
 
 .menu-items__card img {
@@ -331,7 +332,8 @@ main h1 {
     padding: 3rem;
     background-color: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 8px 8px 24px rgba(110, 110, 110, 0.25);
+    border: 1px solid #e2e2e2;
+    box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
     width: 405px;
     height: 250px;
 }
@@ -410,7 +412,8 @@ main h1 {
 }
 
 .pricing__basic, .pricing__monthly, .pricing__weekly {
-    box-shadow: 8px 8px 24px rgba(110, 110, 110, 0.25);
+    border: 1px solid #e2e2e2;
+    box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
     padding: 3rem;
     border-radius: 8px;
     width: 405px;
@@ -467,21 +470,22 @@ main h1 {
 
 /* FAQ SECTION */
 
+.faq__section {
+    background-color: #FAFAFA;
+    padding: 6.25rem 5rem;
+}
+
 .faq__section-description-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .faq__section-description-block h2 {
     margin-bottom: 1rem;
-}
-
-.faq__section {
-    padding: 6.25rem 5rem;
 }
 
 .question__box {
@@ -489,7 +493,9 @@ main h1 {
     justify-content: space-between;
     width: 39.25rem;
     padding: 1rem;
-    background-color: #F5F5F5;
+    border: 1px solid #e2e2e2;
+    box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
+    background-color: #f3f3f3;
     border-radius: 8px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -550,16 +556,16 @@ footer {
     justify-content: space-between;
     border-bottom: #616161 solid;
     border-width: 0.5px;
-    padding-bottom: 5rem;
+    padding-bottom: 4.5rem;
 }
 
-.footer__logo-links {
-    flex-direction: row;
+.footer__logo-links .logo {
+    margin-bottom: 3rem;
 }
 
 .footer__social-links {
     display: flex;
-
+    gap: .5rem;
 }
 
 .footer__top-section-right {
@@ -568,6 +574,26 @@ footer {
     gap: 4rem;
 }
 
+
+.footer__top-section-right ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.footer__top-section-contact li a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.footer__top-section-contact li a img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
 
 .footer__bottom-section {
     display: flex;
@@ -578,6 +604,7 @@ footer {
 .footer__bottom-section-links {
     display: flex;
     justify-content: space-between;
+    gap: 1.2rem
 }
 
 .footer__bottom-section p, 
