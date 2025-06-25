@@ -363,6 +363,7 @@ main h1 {
 .statistics__section-row h3 {
     font-size: 2.488rem;
     width: 480px;
+    
 }
 
 .statistics__row {
@@ -385,6 +386,19 @@ main h1 {
 
 
 /* PRICING SECTION */
+.pricing__section-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.pricing__section-text-block h2 {
+    margin-bottom: 1rem;
+}
+
 .pricing__section {
     background-color: #FEFEFE;
     padding: 6.25rem 5rem;
@@ -400,6 +414,38 @@ main h1 {
     padding: 3rem;
     border-radius: 8px;
     width: 405px;
+}
+
+.pricing__icon {
+    height: 40px;
+    width: 40px;
+}
+
+.pricing__box ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.pricing__box h3 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pricing__box hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0.1px solid #d5d5d5;
+}
+
+.pricing__checkmark {
+    height: 20px;
+    width: 20px;
+}
+
+.pricing__box ul {
+    margin-bottom: 2rem;
 }
 
 .pricing__monthly {
