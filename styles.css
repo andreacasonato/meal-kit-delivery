@@ -1,4 +1,5 @@
-/* STANDARD */
+/* DEFAULT */
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +44,14 @@ h3 {
     font-size: 1.44rem;
 }
 
+.hamburger-menu-icon {
+    display: none;
+}
+
+/* --------------------------------------------------------- */
+
 /* BUTTONS & TAGS */
+
 .button__green {
     padding: 14px 28px;
     background-color: #C3F393;
@@ -87,7 +95,10 @@ h3 {
     border-radius: 16px;
 }
 
+/* --------------------------------------------------------- */
+
 /* HEADER MENU */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -109,7 +120,10 @@ h3 {
     gap: 1.5rem;
 }
 
+/* --------------------------------------------------------- */
+
 /* MAIN */
+
 .main__section {
     border-bottom: solid #C3F393 24px;
     padding: 6.25rem 5rem;
@@ -159,8 +173,10 @@ main h1 {
     gap: 0.5rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* HOW IT WORKS SECTION */
+
 .how-it-works__section {
     background-color: #FAFAFA;
     padding: 6.25rem 5rem;
@@ -209,8 +225,10 @@ main h1 {
     margin-bottom: 1rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* USPS SECTION */
+
 .usp__section {
     background-color: #FEFEFE;
     padding: 6.25rem 5rem;
@@ -256,8 +274,10 @@ main h1 {
     gap: 1rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* MENU ITEMS SECTION */
+
 .menu-items__section {
     background-color: #F5FDED;
     padding: 6.25rem 5rem;
@@ -316,7 +336,10 @@ main h1 {
     flex-wrap: wrap;
 }
 
+/* --------------------------------------------------------- */
+
 /* REVIEW SECTION */
+
 .review__section {
     background-color: #FEFEFE;
     padding: 6.25rem 5rem;
@@ -343,8 +366,10 @@ main h1 {
     margin-bottom: 1rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* STATISTICS SECTION */
+
 .statistics__section {
     background-color: #FAFAFA;
     padding: 6.25rem 5rem;
@@ -365,7 +390,6 @@ main h1 {
 .statistics__section-row h3 {
     font-size: 2.488rem;
     width: 480px;
-    
 }
 
 .statistics__row {
@@ -386,8 +410,10 @@ main h1 {
     font-size: 1.2rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* PRICING SECTION */
+
 .pricing__section-text-block {
     display: flex;
     flex-direction: column;
@@ -467,6 +493,7 @@ main h1 {
     gap: 0.5rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* FAQ SECTION */
 
@@ -523,6 +550,7 @@ main h1 {
     gap: 0.8rem;
 }
 
+/* --------------------------------------------------------- */
 
 /* CTA SECTION */
 
@@ -540,6 +568,8 @@ main h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/* --------------------------------------------------------- */
 
 /* FOOTER */
 
@@ -573,7 +603,6 @@ footer {
     justify-content: space-between;
     gap: 4rem;
 }
-
 
 .footer__top-section-right ul li {
     display: flex;
@@ -611,3 +640,51 @@ footer {
 .footer__bottom-section a {
     font-size: 0.890rem;
 }
+
+/* --------------------------------------------------------- */
+
+
+/* MEDIA QUERIES */
+
+/* --------------------------------------------------------- */
+
+/* HEADER */
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 0; 
+    }
+
+    .navigation {
+        flex-direction: row;
+        align-items: center;
+        width: auto; 
+        gap: 1rem;
+    }
+
+    .navigation__items {
+        display: none; 
+    }
+
+    .hamburger-menu-icon {
+        display: block;
+    }
+
+    .navigation .button__green {
+        display: flex; 
+        padding: 10px 20px; 
+        font-size: 0.9rem; 
+    }
+}
+
+/* --------------------------------------------------------- */
+
+/* HERO */
