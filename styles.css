@@ -688,3 +688,62 @@ footer {
 /* --------------------------------------------------------- */
 
 /* HERO */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+
+    .main__section {
+        padding: 4rem 2rem;
+    }
+
+    .main__box {
+        width: 75%;
+        padding: 2rem;
+    }
+
+    main h1 {
+        font-size: 2.5rem;
+        width: auto;
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+
+    .main__section {
+        padding: 2rem 1rem;
+        text-align: left;
+    }
+
+    .main__box {
+        width: 80%;
+        padding: 1.5rem;
+        box-shadow: none;
+        border: none;
+    }
+
+    main h1 {
+        font-size: 2rem;
+        width: auto;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .main__box p {
+        font-size: 0.9rem; 
+    }
+
+    .main__box ul {
+        text-align: left; 
+        font-size: 0.8rem; 
+    }
+
+    .main__box ul li {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+        flex-wrap: wrap;
+        line-height: 1.4;
+    }
+}
