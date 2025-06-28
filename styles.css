@@ -686,7 +686,7 @@ footer {
 
 /* --------------------------------------------------------- */
 
-/* HERO */
+/* HERO SECTION */
 
 /* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
@@ -710,13 +710,13 @@ footer {
 @media (max-width: 767px) {
 
     .main__section {
-        padding: 2rem 1rem;
-        text-align: left;
+        padding: 3rem 1rem;
     }
 
     .main__box {
         width: 95%;
         padding: 1.5rem;
+        margin: 0 auto;
         box-shadow: none;
         border: none;
     }
@@ -749,7 +749,7 @@ footer {
 
 /* --------------------------------------------------------- */
 
-/* HOW IT WORKS */
+/* HOW IT WORKS SECTION */
 
 /* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
@@ -789,11 +789,11 @@ footer {
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
     .how-it-works__section {
-        padding: 2rem 1rem;
+        padding: 2.5rem 1rem;
     }
 
     .how-it-works__text-block {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     .how-it-works__title {
@@ -803,8 +803,8 @@ footer {
     .how-it-works__usps {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
-        margin-bottom: 2rem;
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 
     .how-it-works__usps > div {
@@ -820,11 +820,11 @@ footer {
     }
 
     .how-it-works__usps h3 {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .how-it-works__usps p {
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
     .cta-group-one {
@@ -832,4 +832,152 @@ footer {
         align-items: center;
         gap: 1rem;
     }
+}
+
+/* --------------------------------------------------------- */
+
+/* USP SECTION */
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .usp__section {
+        padding: 4rem 2rem;
+    }
+
+    .usp__section-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .usp__section-row > div {
+        width: 90%;
+    }
+
+    .usp__section-row img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .usp__section-text-block {
+        text-align: center;
+    }
+
+    .usp__section-text-block h2 {
+        max-width: none;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .usp__section-text-block p {
+        max-width: none;
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .usp__section-icon-text {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .usp__section-icon-text div {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .usp__section-icon-text img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .usp__section-icon-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .usp__section-icon-text p {
+        font-size: 0.9rem;
+    }
+
+    .cta-group-two {
+        justify-content: center;
+        gap: 0.8rem;
+    }
+
+    .usp__section-row .usp__section-text-block {
+        order: 2; /* Assign order 2 to the text block */
+    }
+
+    .usp__section-row > div:nth-child(2) { /* Target the div containing the image */
+        order: 1; /* Assign order 1 to the image div */
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .usp__section {
+        padding: 2.5rem 1rem;
+    }
+
+    .usp__section-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .usp__section-row > div {
+        width: 100%;
+    }
+
+    .usp__section-text-block {
+        text-align: center;
+    }
+
+    .usp__section-text-block h2 {
+        font-size: 1.8rem;
+    }
+
+    .usp__text-block p { /* Corrected selector: was usp__section-text-block p */
+        font-size: 1rem;
+    }
+
+    .usp__section-icon-text {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .usp__section-icon-text div {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    .usp__section-icon-text img {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 0.5rem;
+    }
+
+    .usp__section-icon-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .usp__section-icon-text p {
+        font-size: 1rem;
+    }
+
+    .cta-group-two {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .usp__section-row .usp__section-text-block {
+        order: 2; /* Assign order 2 to the text block */
+    }
+
+    .usp__section-row > div:nth-child(2) { /* Target the div containing the image */
+        order: 1; /* Assign order 1 to the image div */
+    }
+
 }
