@@ -264,7 +264,7 @@ main h1 {
 }
 
 .usp__section-icon-text h3 {
-    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .usp__section-icon-text p {
@@ -923,6 +923,7 @@ footer {
 @media (max-width: 767px) {
     .usp__section {
         padding: 2.5rem 1rem;
+        flex-direction: column-reverse;
     }
 
     .usp__section-row {
@@ -987,3 +988,98 @@ footer {
 /* --------------------------------------------------------- */
 
 /* MENU ITEMS SECTION */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .menu-items__section {
+        padding: 4rem 2rem;
+    }
+
+    .menu-items__text-block {
+        margin-bottom: 3rem;
+    }
+
+    .menu-items__text-block h2 {
+        font-size: 2rem;
+    }
+
+    .menu-items__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .menu-items__card {
+        width: 48%;
+        max-width: 400px;
+    }
+
+    .menu-items__card img {
+        height: 180px;
+    }
+
+    .menu-items__card-content {
+        padding: 1.2rem;
+    }
+
+    .menu-items__card-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .menu-items__card-content p {
+        font-size: 0.9rem;
+    }
+
+    .tag {
+        font-size: 0.8rem;
+        padding: 0.3rem 1rem;
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .menu-items__section {
+        padding: 2.5rem 1rem;
+    }
+
+    .menu-items__text-block {
+        margin-bottom: 2rem;
+    }
+
+    .menu-items__text-block h2 {
+        font-size: 1.8rem;
+    }
+
+    .menu-items__cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .menu-items__card {
+        width: 100%;
+        max-width: none;
+    }
+
+    .menu-items__card img {
+        height: 160px;
+    }
+
+    .menu-items__card-content {
+        padding: 1.5rem;
+    }
+
+    .menu-items__card-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .menu-items__card-content p {
+        font-size: 1rem;
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.8rem;
+    }
+}
