@@ -1026,7 +1026,7 @@ footer {
     }
 
     .menu-items__card-content h3 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .menu-items__card-content p {
@@ -1117,6 +1117,7 @@ footer {
     .review__card {
         width: 100%;
         max-width: none;
+        padding: 2rem;
     }
 
 }
@@ -1124,6 +1125,52 @@ footer {
 /* --------------------------------------------------------- */
 
 /* STATISTICS SECTION */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .statistics__section {
+        padding: 4rem 2rem;
+    }
+
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .statistics__section {
+        padding: 2.5rem 1rem;
+    }
+
+    .statistics__section-row h3 {
+        font-size: 1.4rem;
+        text-align: left;
+        width: 300px;
+        text-align: center;
+    }
+
+    .statistics__section-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .statistics__row img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .statistics__row p {
+        font-size: 1.5rem;
+    }
+
+    .statistics__text {
+        font-size: 1rem;
+    }
+
+
+}
+
 
 /* --------------------------------------------------------- */
 
