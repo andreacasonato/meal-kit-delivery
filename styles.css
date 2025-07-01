@@ -26,6 +26,7 @@ a:hover {
 p {
     color: #616161;
     font-size: 1rem;
+    line-height: 1.6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -125,7 +126,7 @@ h3 {
 /* MAIN */
 
 .main__section {
-    border-bottom: solid #C3F393 24px;
+    border-bottom: 24px solid #C3F393;
     padding: 6.25rem 5rem;
     background-image: url(Images/Hero\ Image.webp);
     background-size: cover;
@@ -489,6 +490,7 @@ main h1 {
     font-size: 2.074rem;
     font-weight: 700;
     color: #259F00;
+    margin-top: 0.5rem;
 }
 
 .pricing-line {
@@ -733,7 +735,7 @@ footer {
     }
 
     .main__box p {
-        font-size: 0.9rem; 
+        font-size: 1rem; 
     }
 
     .main__box ul {
@@ -1083,3 +1085,58 @@ footer {
         padding: 0.25rem 0.8rem;
     }
 }
+
+/* --------------------------------------------------------- */
+
+/* REVIEWS SECTION */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .review__section {
+        padding: 4rem 2rem;
+    }
+
+    .review__card {
+        height: auto;
+    }
+
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .review__section {
+        padding: 2.5rem 1rem;
+    }
+
+    .review__row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .review__card {
+        width: 100%;
+        max-width: none;
+    }
+
+}
+
+/* --------------------------------------------------------- */
+
+/* STATISTICS SECTION */
+
+/* --------------------------------------------------------- */
+
+/* PRICING SECTION */
+
+/* --------------------------------------------------------- */
+
+/* FAQ SECTION */
+
+/* --------------------------------------------------------- */
+
+/* CTA SECTION */
+
+/* --------------------------------------------------------- */
+
+/* FOOTER SECTION */
