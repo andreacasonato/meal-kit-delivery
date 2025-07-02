@@ -1171,10 +1171,78 @@ footer {
 
 }
 
-
 /* --------------------------------------------------------- */
 
 /* PRICING SECTION */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .pricing__section {
+        padding: 4rem 2rem;
+    }
+
+    .pricing__section-row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: center;
+        gap: 1.5rem;
+    }
+
+    .pricing__box {
+        width: 48%;
+        max-width: 400px;
+    }
+
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .pricing__section {
+        padding: 2.5rem 1rem;
+    }
+
+    .pricing__section-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .pricing__section-text-block {
+        margin-bottom: 2rem;
+    }
+
+    .pricing__box {
+        width: 100%;
+        max-width: none;
+        padding: 2rem;
+    }
+
+    .pricing__section h2 {
+        font-size: 1.8rem;
+    }
+
+    .pricing__section h3 {
+        font-size: 1.4rem;
+    }
+
+    .pricing__section p {
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 2rem !important;
+    }
+
+    .pricing__box li {
+        font-size: 1rem;
+    }
+
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
 
 /* --------------------------------------------------------- */
 
