@@ -563,6 +563,7 @@ main h1 {
 .cta__section {
     background-image: url(Images/CTA-image.webp);
     padding: 6.25rem 5rem;
+    background-size: cover;
 }
 
 .cta__section p, 
@@ -1289,7 +1290,15 @@ footer {
     .cta__section {
         padding: 2.5rem 1rem;
     }
-}
+
+    .cta__section h2 {
+        font-size: 1.8rem;
+    }
+
+    .cta__section img {
+        background-size: cover;
+    };
+    }
 
 /* --------------------------------------------------------- */
 
