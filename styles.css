@@ -524,7 +524,7 @@ main h1 {
 .question__box {
     display: flex;
     justify-content: space-between;
-    width: 39.25rem;
+    width: 628px;
     padding: 1rem;
     border: 1px solid #e2e2e2;
     box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
@@ -1248,10 +1248,64 @@ footer {
 
 /* FAQ SECTION */
 
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .faq__section {
+        padding: 4rem 2rem;
+    }
+}
+
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .faq__section {
+        padding: 2.5rem 1rem;
+    }
+
+    .faq__section h2 {
+        font-size: 1.8rem;
+    }
+
+    .question__box {
+        width: 100%;
+        max-width: none;
+    }
+}
+
 /* --------------------------------------------------------- */
 
 /* CTA SECTION */
 
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .cta__section {
+        padding: 4rem 2rem;
+    }
+}
+
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .cta__section {
+        padding: 2.5rem 1rem;
+    }
+}
+
 /* --------------------------------------------------------- */
 
 /* FOOTER SECTION */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    footer {
+        padding: 4rem 2rem;
+    }
+}
+
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    footer {
+        padding: 2.5rem 1rem;
+    }
+}
