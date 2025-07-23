@@ -1,12 +1,17 @@
 /* DEFAULT */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
     scroll-behavior: smooth;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 a {
