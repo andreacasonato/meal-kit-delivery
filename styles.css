@@ -639,18 +639,20 @@ footer {
 .footer__bottom-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 1.25rem;
 }
 
 .footer__bottom-section-links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 1.2rem
 }
 
 .footer__bottom-section p, 
 .footer__bottom-section a {
-    font-size: 0.890rem;
+    font-size: 0.8rem;
 }
 
 /* --------------------------------------------------------- */
