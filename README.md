@@ -1,4 +1,4 @@
-# 🍽Meal Kit Delivery Landing Page
+# Meal Kit Delivery Landing Page
 
 Responsive landing page for a meal kit delivery service. Built with HTML and CSS.
 
