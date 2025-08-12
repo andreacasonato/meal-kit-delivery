@@ -34,7 +34,12 @@ p {
     font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #151515;
 }
 
@@ -65,7 +70,7 @@ h3 {
     border-radius: 24px;
     border: none;
     cursor: pointer;
-
+    transition: all 0.4s ease;
     display: flex;
     align-items: center;
     gap: 0.1rem;
@@ -82,7 +87,7 @@ h3 {
     border-radius: 24px;
     border: 1px solid #bbbbbb;
     cursor: pointer;
-
+    transition: all 0.4s ease;
     display: flex;
     align-items: center;
     gap: 0.1rem;
@@ -203,7 +208,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -218,7 +223,7 @@ main h1 {
     margin-bottom: 3rem;
 }
 
-.how-it-works__usps > div {
+.how-it-works__usps>div {
     text-align: center;
     width: 230px;
 }
@@ -259,7 +264,7 @@ main h1 {
     display: flex;
     justify-content: space-between;
     gap: 5.75rem;
-}   
+}
 
 .usp__section-icon-text div {
     max-width: 270px;
@@ -297,7 +302,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -428,7 +433,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -447,7 +452,9 @@ main h1 {
     justify-content: space-between;
 }
 
-.pricing__basic, .pricing__monthly, .pricing__weekly {
+.pricing__basic,
+.pricing__monthly,
+.pricing__weekly {
     border: 1px solid #e2e2e2;
     box-shadow: 8px 8px 24px rgba(196, 196, 196, 0.25);
     padding: 3rem;
@@ -517,7 +524,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -571,7 +578,7 @@ main h1 {
     background-size: cover;
 }
 
-.cta__section p, 
+.cta__section p,
 .cta__section h2 {
     color: #F5F5F5;
 }
@@ -650,7 +657,7 @@ footer {
     gap: 1.2rem
 }
 
-.footer__bottom-section p, 
+.footer__bottom-section p,
 .footer__bottom-section a {
     font-size: 0.8rem;
 }
@@ -666,25 +673,25 @@ footer {
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
     .header {
-        flex-direction: row; 
-        justify-content: space-between; 
-        align-items: center; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         padding: 1rem;
     }
 
     .logo {
-        margin-bottom: 0; 
+        margin-bottom: 0;
     }
 
     .navigation {
         flex-direction: row;
         align-items: center;
-        width: auto; 
+        width: auto;
         gap: 1rem;
     }
 
     .navigation__items {
-        display: none; 
+        display: none;
     }
 
     .hamburger-menu-icon {
@@ -692,9 +699,9 @@ footer {
     }
 
     .navigation .button__green {
-        display: flex; 
-        padding: 10px 20px; 
-        font-size: 0.9rem; 
+        display: flex;
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
 }
 
@@ -738,17 +745,17 @@ footer {
     main h1 {
         font-size: 2rem;
         width: auto;
-        margin-left: auto; 
+        margin-left: auto;
         margin-right: auto;
     }
 
     .main__box p {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .main__box ul {
-        text-align: left; 
-        font-size: 0.8rem; 
+        text-align: left;
+        font-size: 0.8rem;
     }
 
     .main__box ul li {
@@ -776,7 +783,7 @@ footer {
         justify-content: center;
     }
 
-    .how-it-works__usps > div {
+    .how-it-works__usps>div {
         width: 30%;
         max-width: 280px;
     }
@@ -820,7 +827,7 @@ footer {
         margin-bottom: 1rem;
     }
 
-    .how-it-works__usps > div {
+    .how-it-works__usps>div {
         width: 80%;
         max-width: 300px;
         padding: 1.5rem;
@@ -863,7 +870,7 @@ footer {
         gap: 3rem;
     }
 
-    .usp__section-row > div {
+    .usp__section-row>div {
         width: 90%;
     }
 
@@ -920,11 +927,14 @@ footer {
     }
 
     .usp__section-row .usp__section-text-block {
-        order: 2; /* Assign order 2 to the text block */
+        order: 2;
+        /* Assign order 2 to the text block */
     }
 
-    .usp__section-row > div:nth-child(2) { /* Target the div containing the image */
-        order: 1; /* Assign order 1 to the image div */
+    .usp__section-row>div:nth-child(2) {
+        /* Target the div containing the image */
+        order: 1;
+        /* Assign order 1 to the image div */
     }
 }
 
@@ -940,7 +950,7 @@ footer {
         align-items: center;
     }
 
-    .usp__section-row > div {
+    .usp__section-row>div {
         width: 100%;
     }
 
@@ -986,11 +996,14 @@ footer {
     }
 
     .usp__section-row .usp__section-text-block {
-        order: 2; /* Assign order 2 to the text block */
+        order: 2;
+        /* Assign order 2 to the text block */
     }
 
-    .usp__section-row > div:nth-child(2) { /* Target the div containing the image */
-        order: 1; /* Assign order 1 to the image div */
+    .usp__section-row>div:nth-child(2) {
+        /* Target the div containing the image */
+        order: 1;
+        /* Assign order 1 to the image div */
     }
 }
 
@@ -1303,8 +1316,10 @@ footer {
 
     .cta__section img {
         background-size: cover;
-    };
     }
+
+    ;
+}
 
 /* --------------------------------------------------------- */
 
@@ -1335,7 +1350,7 @@ footer {
         align-items: flex-end;
     }
 
-   .footer__top-section {
+    .footer__top-section {
         flex-direction: column;
         gap: 2rem;
     }
@@ -1366,6 +1381,7 @@ footer {
 
     .footer__bottom-section-links {
         flex-direction: column;
+        align-self: flex-start;
         gap: 8px;
     }
 }
