@@ -937,6 +937,11 @@ footer {
         order: 1;
         /* Assign order 1 to the image div */
     }
+
+    .usp__image {
+        display: flex;
+        align-items: center;
+    }
 }
 
 /* Mobile (up to 767px) */
